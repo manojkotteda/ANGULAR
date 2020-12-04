@@ -1,0 +1,14 @@
+.example-card {
+    max-width: 350px;
+    min-height: 555px;
+  }
+  
+  .example-header-image {
+    background-image: url('../../../assets/times.png');
+    background-size: cover;
+  }
+.news-list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

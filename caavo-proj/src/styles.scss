@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.warn{
+    background-color: red;
+  }
+
+  mat-card img{
+    object-fit: cover; /*this makes the image in src fit to the size specified below*/
+    width: 100%; /* Here you can use wherever you want to specify the width and also the height of the <img>*/
+    height: 250px;
+  }
