@@ -1,0 +1,11 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Install & Build
+    init: npm install
+    command: ng serve --host=0.0.0.0 --port=4200
+
+ports:
+  - port: 4200
+    onOpen: open-preview
